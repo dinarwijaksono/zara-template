@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* color */
+/* https://colorhunt.co/palette/222831393e46b55400eeeeee */
+.bg-color-1 {
+    background-color: #222831;
+}
+
+.bg-color-2 {
+    background-color: #393E46;
+}
+
+.bg-color-3 {
+    background-color: #B55400;
+}
+
+.bg-color-4 {
+    background-color: #EEEEEE;
+}
+
+.text-color-1 {
+    color: #222831;
+}
+
+/* end color */
+
+
+
+/* heading */
+h1 {
+    @apply text-[24px]
+}
+
+h2  {
+    @apply text-[22px]
+}
+
+h3 {
+    @apply text-[20px]
+}
+
+h4  {
+    @apply text-[18px]
+}
+
+body {
+    @apply text-[14px] ; 
+}
