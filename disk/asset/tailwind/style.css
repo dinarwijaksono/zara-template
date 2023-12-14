@@ -685,6 +685,47 @@ nav {
 
 /* table */
 
+/* button */
+
+.content div.wraper main button.btn {
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 228 231 / var(--tw-bg-opacity));
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.content div.wraper main button.btn.btn-danger {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.content div.wraper main button.btn.btn-success {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.content div.wraper main button.btn.btn-sm {
+  font-size: 12px;
+}
+
+/* end button */
+
+/* end main */
+
 /* footer */
 
 .content div.wraper footer {
@@ -699,14 +740,20 @@ nav {
 
 /* end footer */
 
-/* end main */
-
 .z-50 {
   z-index: 50;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
 }
 
 .table {
@@ -723,6 +770,10 @@ nav {
 
 .w-auto {
   width: auto;
+}
+
+.basis-4\/12 {
+  flex-basis: 33.333333%;
 }
 
 .bg-zinc-200 {
