@@ -724,6 +724,48 @@ nav {
 
 /* end button */
 
+/* form */
+
+div.form-group {
+  margin-bottom: 0.75rem;
+  width: 100%;
+}
+
+div.form-group input {
+  width: 100%;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(147 197 253 / var(--tw-border-opacity));
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+div.form-group p {
+  font-size: 14px;
+  font-style: italic;
+}
+
+div.form-group p.danger {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+div.form-group p.primary {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
+}
+
+div.form-group p.success {
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
+}
+
+/* end form */
+
 /* end main */
 
 /* footer */

@@ -152,6 +152,34 @@
     /* end button */
     
 
+    
+
+    /* form */
+    div.form-group {
+        @apply w-full mb-3
+    }
+    
+    div.form-group input {
+        @apply border border-blue-300 w-full outline-none py-1 px-2
+    }
+
+    div.form-group p {
+        @apply text-[14px] italic
+    }
+
+    div.form-group p.danger {
+        @apply text-red-500
+    }
+
+    div.form-group p.primary {
+        @apply text-blue-400
+    }
+
+    div.form-group p.success {
+        @apply text-green-500
+    }
+    /* end form */
+
     /* end main */
     
     
