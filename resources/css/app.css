@@ -1,3 +1,76 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+    body {
+        @apply hind-guntur-regular text-slate-700 bg-slate-200;
+    }
+
+    h1 {
+        @apply text-[30px] hind-guntur-medium;
+    }
+
+    h2 {
+        @apply text-[24px] hind-guntur-medium;
+    }
+
+    h3 {
+        @apply text-[20px] hind-guntur-medium;
+    }
+
+    h4 {
+        @apply text-[16px] hind-guntur-medium;
+    }
+
+
+    a {
+        @apply text-sky-500 hover:text-sky-300
+    }
+
+}
+
+@layer components {
+    /* navbar */
+    nav {
+        @apply bg-green-800 h-12 p-2 px-7;
+    }
+    /* end navbar */
+}
+
+@layer utilities {
+    /* font */
+    .hind-guntur-light {
+        font-family: "Hind Guntur", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      .hind-guntur-regular {
+        font-family: "Hind Guntur", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .hind-guntur-medium {
+        font-family: "Hind Guntur", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      .hind-guntur-semibold {
+        font-family: "Hind Guntur", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+      .hind-guntur-bold {
+        font-family: "Hind Guntur", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+
+
+}
