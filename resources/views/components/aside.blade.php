@@ -8,5 +8,9 @@
             <li>Heading</li>
         </a>
 
+        <a href="/Home/colors">
+            <li>Colors</li>
+        </a>
+
     </ul>
 </aside>

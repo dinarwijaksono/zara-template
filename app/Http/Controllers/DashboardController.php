@@ -16,4 +16,9 @@ class DashboardController extends Controller
     {
         return view('Home/heading');
     }
+
+    public function colors()
+    {
+        return view('/Home/colors');
+    }
 }

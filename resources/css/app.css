@@ -5,7 +5,7 @@
 @layer base {
 
     body {
-        @apply hind-guntur-regular text-slate-700 bg-slate-200;
+        @apply hind-guntur-medium text-slate-700 bg-slate-200;
     }
 
     h1 {
@@ -40,6 +40,158 @@
 }
 
 @layer utilities {
+    /* background colors */
+    .bg-primary {
+        @apply bg-sky-500
+    }
+
+    .bg-primary-dark {
+        @apply bg-sky-700;
+    }
+
+    .bg-primary-light {
+        @apply bg-sky-300;
+    }
+
+    .bg-secondary {
+        @apply bg-slate-500;
+    }
+
+    .bg-secondary-dark {
+        @apply bg-slate-700;
+    }
+
+    .bg-secondary-light {
+        @apply bg-slate-300;
+    }
+
+    .bg-success {
+        @apply bg-green-600;
+    }
+
+    .bg-success-dark {
+        @apply bg-green-800;
+    }
+
+    .bg-success-light {
+        @apply bg-green-400;
+    }
+
+    .bg-danger {
+        @apply bg-red-500;
+    }
+
+    .bg-danger-dark {
+        @apply bg-red-700;
+    }
+
+    .bg-danger-light {
+        @apply bg-red-300;
+    }
+    
+    .bg-warning {
+        @apply bg-yellow-400;
+    }
+
+    .bg-warning-dark {
+        @apply bg-yellow-600;
+    }
+
+    .bg-warning-light {
+        @apply bg-yellow-200;
+    }
+    
+    /* end background colors */
+
+
+    /* text color */
+    .text-primary {
+        @apply text-sky-500
+    }
+
+    .text-secondary {
+        @apply text-slate-500;
+    }
+
+    .text-success {
+        @apply text-green-600;
+    }
+
+    
+    .text-danger {
+        @apply text-red-500;
+    }
+
+    
+    .text-warning {
+        @apply text-yellow-400;
+    }    
+    /* end text color */
+
+
+    /* border color */
+    .border-primary {
+        @apply border-sky-500
+    }
+
+    .border-primary-dark {
+        @apply border-sky-700;
+    }
+
+    .border-primary-light {
+        @apply border-sky-300;
+    }
+
+    .border-secondary {
+        @apply border-slate-500;
+    }
+
+    .border-secondary-dark {
+        @apply border-slate-700;
+    }
+
+    .border-secondary-light {
+        @apply border-slate-300;
+    }
+
+    .border-success {
+        @apply border-green-600;
+    }
+
+    .border-success-dark {
+        @apply border-green-800;
+    }
+
+    .border-success-light {
+        @apply border-green-400;
+    }
+
+    .border-danger {
+        @apply border-red-500;
+    }
+
+    .border-danger-dark {
+        @apply border-red-700;
+    }
+
+    .border-danger-light {
+        @apply border-red-300;
+    }
+    
+    .border-warning {
+        @apply border-yellow-400;
+    }
+
+    .border-warning-dark {
+        @apply border-yellow-600;
+    }
+
+    .border-warning-light {
+        @apply border-yellow-200;
+    }
+    /* end border color */
+
+    
     /* font */
     .hind-guntur-light {
         font-family: "Hind Guntur", sans-serif;
