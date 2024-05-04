@@ -91,6 +91,17 @@
         @apply border-green-500 bg-slate-700
     }
     /* end aside */
+
+    /* box */
+    .box {
+        @apply bg-white p-2 shadow-md mb-2
+    }
+
+    .box .box-title {
+        @apply mb-2
+    }
+    /* end box */
+    
 }
 
 @layer utilities {
