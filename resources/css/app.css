@@ -34,8 +34,33 @@
 @layer components {
     /* navbar */
     nav {
-        @apply bg-green-800 h-12 p-2 px-7;
+        @apply bg-green-600 p-2 px-7;
     }
+    
+    nav ul {
+        @apply p-1 text-right
+    }
+    
+    nav ul a {
+        @apply text-white
+    }
+    
+    nav ul li {
+        @apply inline-block px-1 mr-1 text-white hover:bg-slate-200 hover:text-slate-700 hover:underline
+    }
+
+    nav ul li.active {
+        @apply underline;
+    }
+
+    nav ul li.btn {
+        @apply  bg-green-600
+    }
+    
+    nav ul li.btn button {
+        @apply text-white rounded px-2 text-[14px]
+    }
+    
     /* end navbar */
 
     /* aside */
