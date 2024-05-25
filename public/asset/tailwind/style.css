@@ -640,7 +640,7 @@ a:hover {
 
 nav {
   --tw-bg-opacity: 1;
-  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity));
   padding: 0.5rem;
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -679,14 +679,14 @@ nav ul li.active {
 
 nav ul li.btn {
   --tw-bg-opacity: 1;
-  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity));
 }
 
 nav ul li.btn button {
   border-radius: 0.25rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  font-size: 14px;
+  font-size: 16px;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -696,7 +696,7 @@ nav ul li.btn button {
 /* aside */
 
 aside {
-  min-height: 600px;
+  height: 100%;
 }
 
 aside div.profile {
@@ -818,24 +818,16 @@ aside ul li.active {
   display: flex;
 }
 
+.basis-1\/2 {
+  flex-basis: 50%;
+}
+
 .basis-10\/12 {
   flex-basis: 83.333333%;
 }
 
 .basis-2\/12 {
   flex-basis: 16.666667%;
-}
-
-.basis-1\/2 {
-  flex-basis: 50%;
-}
-
-.basis-1\/12 {
-  flex-basis: 8.333333%;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .gap-2 {
@@ -854,14 +846,6 @@ aside ul li.active {
   border-top-width: 0px;
 }
 
-.border-t-4 {
-  border-top-width: 4px;
-}
-
-.border-l-4 {
-  border-left-width: 4px;
-}
-
 .border-slate-600 {
   --tw-border-opacity: 1;
   border-color: rgb(71 85 105 / var(--tw-border-opacity));
@@ -870,11 +854,6 @@ aside ul li.active {
 .border-slate-700 {
   --tw-border-opacity: 1;
   border-color: rgb(51 65 85 / var(--tw-border-opacity));
-}
-
-.border-green-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(22 163 74 / var(--tw-border-opacity));
 }
 
 .bg-black {

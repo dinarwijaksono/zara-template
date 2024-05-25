@@ -34,7 +34,7 @@
 @layer components {
     /* navbar */
     nav {
-        @apply bg-green-600 p-2 px-7;
+        @apply bg-green-700 p-2 px-7;
     }
     
     nav ul {
@@ -54,18 +54,18 @@
     }
 
     nav ul li.btn {
-        @apply  bg-green-600
+        @apply  bg-green-700
     }
     
     nav ul li.btn button {
-        @apply text-white rounded px-2 text-[14px]
+        @apply text-white rounded px-2 text-[16px]
     }
     
     /* end navbar */
 
     /* aside */
     aside {
-        @apply min-h-[600px];
+        @apply h-full ;
     }
 
     aside div.profile {
