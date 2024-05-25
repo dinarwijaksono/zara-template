@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +22,9 @@ Route::get('/Home/heading', [DashboardController::class, 'heading']);
 
 Route::get('/Home/colors', [DashboardController::class, 'colors']);
 // end DashboardController
+
+// AuthController
+Route::get('Auth/login', [AuthController::class, 'login']);
+
+Route::get('/Auth/register', [AuthController::class, 'register']);
+// end AuthController

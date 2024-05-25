@@ -27,6 +27,14 @@
     <hr class="my-5 mx-3">
 
     <ul>
+        <a href="/Auth/login">
+            <li>Exemple Page Login</li>
+        </a>
+    </ul>
+
+    <hr class="my-5 mx-3">
+
+    <ul>
         <li class="btn">
             <button type="button">Logout</button>
         </li>
