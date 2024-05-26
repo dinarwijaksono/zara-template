@@ -9,8 +9,7 @@
 
     <ul>
         <a href="/">
-            <li class="active">
-                Dashboard</li>
+            <li>Dashboard</li>
         </a>
 
         <a href="/Home/heading">
@@ -19,8 +18,13 @@
         </a>
 
         <a href="/Home/colors">
-            <li>
-                Colors</li>
+            <li>Colors</li>
+        </a>
+
+        <a href="/Table">
+            <li @class([
+                'active' => session()->get('menuActive') == 'table',
+            ])>Tabel</li>
         </a>
     </ul>
 
