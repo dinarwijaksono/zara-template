@@ -32,6 +32,12 @@
                 'active' => session()->get('menuActive') == 'form',
             ])>Form group</li>
         </a>
+
+        <a href="/Alert">
+            <li @class([
+                'active' => session()->get('menuActive') == 'alert',
+            ])>Alert</li>
+        </a>
     </ul>
 
     <hr class="my-5 mx-3">

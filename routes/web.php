@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AlertController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\FormController;
@@ -38,3 +39,7 @@ Route::get('/Table', [TableController::class, 'index']);
 // FormController
 Route::get('/Form', [FormController::class, 'index']);
 // end FormController
+
+// AlertController
+Route::get('/Alert', [AlertController::class, 'index']);
+// end AlertController
