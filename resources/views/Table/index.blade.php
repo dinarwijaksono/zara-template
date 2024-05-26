@@ -9,7 +9,7 @@
         </div>
 
         <div>
-            <table class="table" aria-describedby="table">
+            <table class="table-simple" aria-describedby="table">
                 <thead>
                     <tr class="bg-slate-200">
                         <th class="w-[50px]">No</th>

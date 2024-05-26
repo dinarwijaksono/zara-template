@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\FormController;
 use App\Http\Controllers\TableController;
 use Illuminate\Support\Facades\Route;
 
@@ -33,3 +34,7 @@ Route::get('/Auth/register', [AuthController::class, 'register']);
 // TableController
 Route::get('/Table', [TableController::class, 'index']);
 // end TableController
+
+// FormController
+Route::get('/Form', [FormController::class, 'index']);
+// end FormController
