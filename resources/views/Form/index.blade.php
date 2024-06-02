@@ -25,6 +25,16 @@
                 <p class="error">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, sit!</p>
             </div>
 
+            <div class="form-group ">
+                <label for="type">Pilih salah satu</label>
+                <div class="btn-group">
+                    <button class="btn-primary actice">Pria</button>
+                    <button class="btn-primary">Wanita</button>
+                    <button class="btn-primary">Lainnya</button>
+                </div>
+                <p class="error">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+
             <div class="form-group">
                 <label for="description">Deskripsi</label>
                 <textarea id="descirption" rows="3"></textarea>
